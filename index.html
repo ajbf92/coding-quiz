@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/script.js"></script>
     <title>Coding Quiz</title>
 </head>
 <body>
@@ -25,16 +26,16 @@
     </header>   
     <!-- container holds questions and answer container -->
     <div class="quiz-card"> 
-        <div class="intro">
+        <div id= "intro" class="intro">
             <p>Welcome to coding quiz, where your knowledge will be tested! 
             You will have 60 seconds to answer 5 questions. If an answer is incorrect 
             you will be penalized 5 seconds from your current time. If the timer hits 
             0 then the game is over. If you answer all the questions before the timer hits 0,
             then your time will be saved as your high score.</p>
             <p class="center">Are you ready?</p>
-            <button input="text" class="start">Begin Quiz</button>
+            <button id ="begin-quiz" input="text" class="start">Begin Quiz</button>
         </div>    
-        <div class="question">
+        <div id="questions" class="question hide">
             <h2>Here goes my question
                     <!-- Answer Container -->
             <div class = "answer-boxes">
@@ -46,9 +47,5 @@
             </h2>
         </div>
     </div>  
-
-<script src="/assets/js/script.js"></script>
 </body>
-
-
 </html>
