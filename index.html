@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <header>
+        <!-- container for the title -->
+        <div class="banner">
+            <h1 class="title">Coding Quiz</h1>
+        </div>
+        <!-- highscore and timer container -->
+        <div class="HS-T">
+            <div class="highscore">
+                <h2>High Score:</h2>
+            </div>
+            <div class="timer">
+                <h2>timer</h2>
+            </div>  
+        </div>   
+    </header>   
+    <!-- container holds questions and answer container -->
+    <div class="quiz-card"> 
+        <div class="intro">
+            <p>Welcome to coding quiz, where your knowledge will be tested! 
+            You will have 60 seconds to answer 5 questions. If an answer is incorrect 
+            you will be penalized 5 seconds from your current time. If the timer hits 
+            0 then the game is over. If you answer all the questions before the timer hits 0,
+            then your time will be saved as your high score.</p>
+            <p class="center">Are you ready?</p>
+            <button input="text" class="start">Begin Quiz</button>
+        </div>    
+        <div class="question">
+            <h2>Here goes my question
+                    <!-- Answer Container -->
+            <div class = "answer-boxes">
+                <button input="text" class="button" >Answer</button>
+                <button input="text" class="button" >Answer</button>
+                <button input="text" class="button" >Answer</button>
+                <button input="text" class="button" >Answer</button>
+            </div>
+            </h2>
+        </div>
+    </div>  
+
+<script src="/assets/js/script.js"></script>
+</body>
+
+
+</html>
